@@ -25,5 +25,5 @@ interface ResourceSerializer {
 
   public function toDict(
     RootResource $resource
-  ):  dict<arraykey, mixed>;
+  ): dict<arraykey, mixed>;
 }
