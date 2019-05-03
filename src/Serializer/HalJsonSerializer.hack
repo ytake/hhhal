@@ -22,7 +22,6 @@ use type Ytake\Hhypermedia\ResourceSerializer;
 use type Ytake\Hhypermedia\HalResource;
 use type Ytake\Hhypermedia\RootResource;
 use namespace HH\Lib\{C, Dict, Vec};
-use function json_encode;
 
 class HalJsonSerializer implements ResourceSerializer {
 
